@@ -1,3 +1,7 @@
+.project-card:hover {
+  box-shadow: 0 0 25px #00f7ff;
+  transform: translateY(-5px);
+}
 #particles-js {
   position: fixed;
   width: 100%;
@@ -473,4 +477,5 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #0096c7, #00d8ff);
 }
+
 
