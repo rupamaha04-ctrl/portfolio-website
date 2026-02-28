@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="particles-js"></div>
 
     <!-- Navigation -->
     <nav class="navbar">
@@ -68,6 +69,25 @@
     </footer>
 
     <script src="hamburger.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 3 },
+    color: { value: "#00f7ff" },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#00f7ff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: { enable: true, speed: 2 }
+  }
+});
+</script>
 </body>
 </html>
+
